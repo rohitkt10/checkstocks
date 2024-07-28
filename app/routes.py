@@ -44,7 +44,7 @@ def get_stock_prices():
 def get_ytd_plot():
     symbols = request.form.get('symbols').split(',')
     plots = []
-    
+    plt.figure(figsize=(20, 5))
     for symbol in symbols:
         symbol = symbol.strip().upper()
         data = fetch_stock_data(symbol)
