@@ -1,20 +1,20 @@
 # Stock Price Tracker
 
-A Python-based app to fetch stock prices and check YTD returns. I use the Alpha Vantage API and Flask.
+A Python-based app to fetch stock prices and check YTD returns. I use the [Alpha Vantage API](https://www.alphavantage.co/) and [Flask](https://flask.palletsprojects.com/en/3.0.x/).
 
 ## Installation
 
 Clone the repository and navigate to the project directory:
 
 ```sh
-git clone https://github.com/your-username/stock-price-tracker.git
-cd stock-price-tracker
+git clone https://github.com/rohitkt10/stock-price-tracker.git
+cd checkstocks
 ```
 
 ### Configuration
 Set up your Alpha Vantage API key as an environment variable:
 ```sh
-export ALPHAVANTAGE_API_KEY='your_api_key_here'
+export ALPHAVANTAGE_API_KEY=...
 ```
 ### Install the required dependencies:
 ```sh
